@@ -1,0 +1,33 @@
+mat-card{
+  background-color: lightgoldenrodyellow;
+}
+
+mat-card-header{
+  margin-bottom:10px;
+  margin-left: 0px;
+}
+
+mat-card-title{
+  padding-right: 10px;
+}
+
+img{
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.5);
+  width:200px;
+  height:200px;
+}
+
+mat-card-title, span{
+  font-weight: bold;
+}
+
+#description{
+  padding: 5px;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.5);
+}
+
+mat-card-subtitle{
+  font-size: small;
+}
+

@@ -1,0 +1,34 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title-group>
+      <mat-card-title *ngIf='professor.sexe=="M"'>
+        <span class="titre">Monsieur</span> {{professor.firstname}} {{professor.name | uppercase}}
+      </mat-card-title>
+      <mat-card-title *ngIf='professor.sexe=="F"'>
+        <span class="titre">Madame</span>{{professor.firstname}} {{professor.name | uppercase}}
+      </mat-card-title>
+
+      <mat-card-subtitle>
+        <mat-list-item *ngFor="let subject of professor.subjects">
+          {{subject}}
+        </mat-list-item>
+      </mat-card-subtitle>
+    </mat-card-title-group>
+
+  </mat-card-header>
+
+  <mat-card-content>
+    <span>Type de cours: </span>{{professor.typeStudy}}
+  </mat-card-content>
+  <mat-card-content>
+    <span>Prix/h:</span> {{professor.price | number: "1.2-2"}}€
+  </mat-card-content>
+  <mat-card-content>
+    <span>Lieux: </span>{{professor.city}}
+  </mat-card-content>
+
+  <button mat-raised-button color="primary" (click)="getDetails(professor.id)">Savoir plus</button>
+
+</mat-card>
+
+

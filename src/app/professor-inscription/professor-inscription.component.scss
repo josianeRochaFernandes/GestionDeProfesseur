@@ -1,0 +1,83 @@
+mat-label{
+  font-weight: bold;
+  margin-left: 0px;
+}
+
+.mat-radio-button, mat-checkbox{
+  margin-left: 16px;
+}
+
+mat-card{
+  background-color: lightblue;
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  width:100%;
+}
+
+input, textarea{
+  width: 60%;
+}
+
+mat-select{
+  width:62%;
+  margin-left: 30px;
+}
+
+#subject{
+  margin-left: 60px;
+}
+.form-group{
+  margin: 20px 0px;
+}
+
+#name{
+  margin-left: 90px;
+}
+
+#firstname{
+  margin-left: 72px;
+}
+
+#price{
+  margin-left: 82px;
+}
+
+#city{
+  margin-left: 85px;
+}
+
+#image{
+  margin-left: 25px;
+}
+
+#latin{
+  margin-left: 125px;
+}
+#math{
+  margin-left: 60px;
+}
+
+#female{
+  margin-left:90px;
+}
+
+#contact{
+  margin-left: 72px;
+}
+
+#description{
+  margin-left: 50px;
+}
+
+#cours{
+  margin-left: 35px;
+}
+
+div{
+  display: flex;
+}
+
+app-professor{
+  margin-left: 70px;
+  width: 100%;
+}
